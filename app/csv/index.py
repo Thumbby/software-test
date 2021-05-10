@@ -38,6 +38,4 @@ csv_dir2 = {
     'triangle': triangle,
     'commission': commission,
     'charge': charge,
-    'sales': sales,
-    'printer': printer
 }
