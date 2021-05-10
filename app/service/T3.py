@@ -16,7 +16,7 @@ def commission_atom(arg_list):
         return commission, float('%.2f' % (commission * 0.2))
 
 
-class question2:
+class T3:
     def __init__(self):
         pass
 
@@ -31,7 +31,7 @@ class question2:
             output_1, output_2 = commission_atom(arg_list)
             output1.append(output_1)
             output2.append(output_2)
-        return df_update(df=df, csv_path=csv_path, actual_outputs=[output1, output2], tester_name='anonymous')
+        return df_update(df=df, csv_path=csv_path, actual_outputs=[output1, output2], tester_name='Spidey Sandwich')
 
     @staticmethod
     def commission_method_test(request):

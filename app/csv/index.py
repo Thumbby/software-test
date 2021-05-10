@@ -13,28 +13,28 @@ csv_dir = {
 }
 
 calendar = {
-    'boundary': BASE_DIR + '/q1/calendar-boundary.csv',
-    'equivalence-weak-general': BASE_DIR + '/q1/calendar-equivalent-weak-general.csv',
-    'equivalence-strong-general': BASE_DIR + '/q1/calendar-equivalent-strong-general.csv',
-    'equivalence-weak-robust': BASE_DIR + '/q1/calendar-equivalent-weak-robust.csv',
-    'equivalence-strong-robust': BASE_DIR + '/q1/calendar-equivalent-strong-robust.csv'
+    'boundary': BASE_DIR + '/T8/calendar-boundary.csv',
+    'equivalence-weak-general': BASE_DIR + '/T8/calendar-equivalent-weak-general.csv',
+    'equivalence-strong-general': BASE_DIR + '/T8/calendar-equivalent-strong-general.csv',
+    'equivalence-weak-robust': BASE_DIR + '/T8/calendar-equivalent-weak-robust.csv',
+    'equivalence-strong-robust': BASE_DIR + '/T8/calendar-equivalent-strong-robust.csv'
 }
 
 triangle = {
-    'boundary': BASE_DIR + '/q1/triangle-boundary.csv',
-    'equivalence': BASE_DIR + '/q1/triangle-equivalent.csv'
+    'boundary': BASE_DIR + '/T1/triangle-boundary.csv',
+    'equivalence': BASE_DIR + '/T1/triangle-equivalent.csv'
 }
 
 commission = {
-    'boundary-input': BASE_DIR + '/q2/commission-boundary.csv',
-    'boundary-output': BASE_DIR + '/q2/commission-boundary-output.csv'
+    'boundary-input': BASE_DIR + '/T3/commission-boundary.csv',
+    'boundary-output': BASE_DIR + '/T3/commission-boundary-output.csv'
 }
 
 charge = {
-    'boundary': BASE_DIR + '/q7/charge-boundary.csv',
-    'equivalence': BASE_DIR + '/q7/charge-equivalence.csv',
-    'decision': BASE_DIR + '/q7/charge-decision.csv',
-    'final': BASE_DIR + '/q7/charge.csv'
+    'boundary': BASE_DIR + '/T6/charge-boundary.csv',
+    'equivalence': BASE_DIR + '/T6/charge-equivalence.csv',
+    'decision': BASE_DIR + '/T6/charge-decision.csv',
+    'final': BASE_DIR + '/T6/charge.csv'
 }
 
 sales = {
