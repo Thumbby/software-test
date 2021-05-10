@@ -5,7 +5,7 @@ from app.common.commonUtil import df_update, df_read
 
 def triangle_atom(arg_list):
     a, b, c = arg_list[0], arg_list[1], arg_list[2]
-    if a > 200 or b > 200 or c > 200:
+    if a > 20 or b > 20 or c > 20:
         return '数值越界'
     if a <= 0 or b <= 0 or c <= 0:
         return '数值越界'
@@ -41,6 +41,6 @@ class T1:
 
   
     @staticmethod
-    def triangle_method_test(request, code_version='v2'):
+    def triangle_method_test(request):
         arg_list = [request['edge1'], request['edge2'], request['edge3']]
         return triangle_atom(arg_list)

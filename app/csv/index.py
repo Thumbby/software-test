@@ -22,7 +22,7 @@ calendar = {
 
 triangle = {
     'boundary': BASE_DIR + '/T1/triangle-boundary.csv',
-    'equivalence': BASE_DIR + '/T1/triangle-equivalent.csv'
+    'equivalence': BASE_DIR + '/T1/triangle-equivalence.csv'
 }
 
 commission = {
