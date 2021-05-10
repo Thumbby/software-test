@@ -4,8 +4,8 @@ from app.common.commonUtil import df_update, df_read
 
 def charge_atom(arg_list):
     monthly_fee, cost_per_min = 25, 0.15
-    talk_time_month, unpaid_num_year, unpaid_cost_across_year = \
-        arg_list[0], arg_list[1], arg_list[2]
+    talk_time_month, unpaid_num_year = \
+        arg_list[0], arg_list[1]
     cost = monthly_fee
     if talk_time_month < 0 or talk_time_month > 44640 or unpaid_num_year < 0 or unpaid_num_year > 11 :
         return 'error'
