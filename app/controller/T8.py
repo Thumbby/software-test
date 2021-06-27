@@ -21,7 +21,7 @@ class Calendar(Resource):
 
 
 
-@api.route('/calendar/')
+@api.route('/calendar/', strict_slashes=False)
 class CalenderBasic(Resource):
     @api.doc('Calender Problem Basic Method')
     @api.expect(T8_model)

@@ -18,7 +18,7 @@ class Calendar(Resource):
         return T3_service.commission(method_type)
 
 
-@api.route('/commission/')
+@api.route('/commission/', strict_slashes=False)
 class CalenderBasic(Resource):
     @api.doc('Commission Problem Basic Method')
     @api.expect(model)

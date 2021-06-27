@@ -18,7 +18,7 @@ class Calendar(Resource):
         return T6_service.charge(method_type)
 
 
-@api.route('/charge/')
+@api.route('/charge/', strict_slashes=False)
 class CalenderBasic(Resource):
     @api.doc('Charge Problem Basic Method')
     @api.expect(model)

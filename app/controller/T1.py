@@ -18,7 +18,7 @@ class Triangle(Resource):
         return T1_service.triangle(method_type)
 
 
-@api.route('/triangle/')
+@api.route('/triangle/', strict_slashes=False)
 class TriangleBasic(Resource):
     @api.doc('Triangle Problem Basic Method')
     @api.expect(T1_model)
