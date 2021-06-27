@@ -7,7 +7,7 @@ api = Namespace('show_csv', description='csv展示')
 model = api.model('Show', model=model)
 
 
-@api.route('/')
+@api.route('/', strict_slashes=False)
 class CalenderBasic(Resource):
     @api.doc('Display CSV Table')
     @api.expect(model)
